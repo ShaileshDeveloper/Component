@@ -1,7 +1,7 @@
 .rating-star 
 {
     text-align: center;
-    perspective: 250px;
+    /* perspective: 250px; */
     width: 60%;
     display: flex;
     flex-wrap: wrap;
@@ -11,17 +11,16 @@
 
 .rating-star span 
 {
-    cursor: pointer;
+  cursor: pointer;
   font-size: 40px;
   padding: 0 10px;
-  transition: all 150ms;
+  /* transition: all 150ms; */
   /* display: inline-block; */
-
 }
 
 .rating-star span:hover 
 {
-    color: #fed049;
+    color:peachpuff;
     opacity: 1;
     transform: rotateX(0deg);
     text-shadow: 0 0 30px #ffc;

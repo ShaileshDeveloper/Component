@@ -1,13 +1,12 @@
 #snackbar {
-   
     width: 50%;
-    background-color: #333;
+    background-color: gray;
     color: #fff;
     text-align: center;
     border-radius: 2px;
-    padding: 16px;
+    padding: 20px;
     z-index: 1;
     left: 50%;
     bottom: 30px;
-    font-size: 17px;
+    font-size: 18px;
   }

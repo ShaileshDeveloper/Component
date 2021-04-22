@@ -8,18 +8,17 @@
 
 .small-text 
 {
-    color:blue;
-    font-size: 1.5rem;
+    color:black;
+    font-size: 1.8rem;
     display: block;
     text-align: start;
-
 }
 
 .gray-text 
 {
     font-size: 1.5rem;
     text-align: start;
-    color:#a6a9b6;
+    color:gray;
     display: block;
 }
 
