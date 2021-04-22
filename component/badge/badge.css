@@ -12,22 +12,22 @@
     box-sizing: border-box;
     text-align: center;
     position: relative;
-
 }
 
 .badge-item i
 {
-    color:#F25287;
-    line-height: 60px;
+    color: burlywood;
+    position: absolute;
     font-size: 30px;
+    left : 20px;
+    top :20px;
 }
 
 .badge-item .num 
-
 {
-   position: absolute;
-    margin-top:3px;
-    margin-left:-10px;
+    position: absolute;
+    top:3px;
+    right: 10px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
