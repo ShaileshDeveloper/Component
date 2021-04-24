@@ -147,7 +147,9 @@ aside a i {
   border-radius: 5px;
   padding: 2.5rem;
   text-align: start;
-  margin-top: 2rem 
+  margin-top: 2rem ;
+  background-color: #011627;
+  color: whitesmoke;
 }
 
 .cards img {
