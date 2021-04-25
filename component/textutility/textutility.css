@@ -1,0 +1,26 @@
+.heading-text
+{
+    color: black;
+    font-size: 2rem;
+    display: block;
+    text-align: start;
+}
+
+.small-text 
+{
+    color:black;
+    font-size: 1.4rem;
+    display: block;
+    text-align: start;
+}
+
+.gray-text 
+{
+    font-size: 1.5rem;
+    text-align: start;
+    color:darkgray;
+    display: block;
+}
+
+
+

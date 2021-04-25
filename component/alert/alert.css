@@ -1,0 +1,61 @@
+
+.alert
+{
+  width:70%;
+  margin:1rem auto;
+  padding:0.7rem;
+  position:relative;
+  border-radius:1%;
+}
+
+ .cross 
+{
+    position:absolute;
+    width:1rem;
+    height:1rem;
+    opacity:0.7;
+    right:15px;
+    top:10px;
+    font-size:1.6em;
+    cursor:pointer;
+    color: black;
+ } 
+
+ 
+ .default-alert
+{
+    background-color: lightgrey;
+    box-shadow:0 0 20px 1px LIGHTgrey;
+    border-left:5px solid LIGHTgrey;
+    color:black;
+} 
+
+
+ 
+.success-alert 
+{
+    background-color: lightgreen;
+    box-shadow:0 0 20px 1px lightgreen;
+    border-left:5px solid lightgreen;
+    color:black;
+
+}
+
+.danger-alert 
+{
+    background-color: #EF4444;
+    box-shadow:0 0 20px 1px #EF4444;
+    border-left:5px solid #EF4444;
+    color:black;
+
+    
+}
+
+.warning-alert 
+{
+    background-color: #FBBF24;
+    box-shadow:0 0 20px 1px #FBBF24;
+    border-left:5px solid #FBBF24;
+    color:black;
+
+}

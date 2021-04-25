@@ -1,0 +1,25 @@
+.input-tag {
+    width: 50%;
+    border: 2px solid peachpuff;
+    border-radius: 5px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  .input-tag:focus , .input-validate:focus {
+    border-color: burlywood;
+    box-shadow: 0 0 8px 0 peachpuff;
+  }
+  
+  
+  .input-container 
+  {
+      margin-bottom:15px;
+      max-width:300px;
+  }
+  
+  
+  
