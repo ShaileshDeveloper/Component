@@ -1,9 +1,20 @@
-.avatar {
+.avatar-medium {
     border-radius: 50%;
     transition: linear 0.25s;
     height: 100px;
     width: 100px;
+    padding:1rem;
+
   }
+  .avatar-small {
+    border-radius: 50%;
+    transition: linear 0.25s;
+    height: 40px;
+    width: 40px;
+    
+  }
+
+
   
   /* .avatar img {
     border-radius: 50%;

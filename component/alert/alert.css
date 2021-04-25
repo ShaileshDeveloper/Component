@@ -1,14 +1,14 @@
 
 .alert
 {
-  width:50%;
+  width:70%;
   margin:1rem auto;
-  padding:1rem;
+  padding:0.7rem;
   position:relative;
   border-radius:1%;
 }
 
- .cross-alert 
+ .cross 
 {
     position:absolute;
     width:1rem;
@@ -18,35 +18,44 @@
     top:10px;
     font-size:1.6em;
     cursor:pointer;
-    color: white;
+    color: black;
  } 
 
  
  .default-alert
 {
-    background-color: #d1ccc0;
-    box-shadow:0 0 20px 1px #d1ccc0;
-    border-left:5px solid #A4A4A4;
+    background-color: lightgrey;
+    box-shadow:0 0 20px 1px LIGHTgrey;
+    border-left:5px solid LIGHTgrey;
+    color:black;
 } 
+
+
  
 .success-alert 
 {
-    background-color: #32ff7e;
-    box-shadow:0 0 20px 1px #42ff87;
-    border-left:5px solid #178443;
+    background-color: lightgreen;
+    box-shadow:0 0 20px 1px lightgreen;
+    border-left:5px solid lightgreen;
+    color:black;
+
 }
 
 .danger-alert 
 {
-    background-color: #F6A7A3;
-    box-shadow:0 0 20px 1px #db7d78;
-    border-left:5px solid #d63031;
+    background-color: #EF4444;
+    box-shadow:0 0 20px 1px #EF4444;
+    border-left:5px solid #EF4444;
+    color:black;
+
     
 }
 
 .warning-alert 
 {
-    background-color: #f39c12;
-    box-shadow:0 0 20px 1px #f39c12;
-    border-left:5px solid #cc8718;
+    background-color: #FBBF24;
+    box-shadow:0 0 20px 1px #FBBF24;
+    border-left:5px solid #FBBF24;
+    color:black;
+
 }

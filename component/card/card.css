@@ -9,14 +9,13 @@ a
     width: 300px;
     position: relative;
     margin: 50px auto;
-    background: burlywood;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 
-.badge {
-    position: absolute;
+.card-badge {
+    position:absolute;
     left: 0;
     top: 20px;
     text-transform: uppercase;
@@ -24,10 +23,10 @@ a
     font-weight: 700;
     background: #EF4444;
     color:whitesmoke;
-    padding: 5px 10px;
+    padding: 5px 13px;
 }
 
-.cross-badge {
+.card-cross-badge {
     position: absolute;
     right: 5px;
     top: 20px;
@@ -65,11 +64,14 @@ a
 
 .card-details {
     padding: 30px;
+    background: lightgrey
+    ;
+    border-radius: 15px;
 }
 
 
 .card-details h4 a {
-    font-weight: 500;
+    font-weight: 800;
     /* display: block; */
     margin-bottom: 18px;
     text-transform: uppercase;
@@ -80,21 +82,23 @@ a
 
 
 .card-details h4 a:hover {
-    color: peachpuff;
+    color: white;
 }
 
 .card-details p {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 900px;
     line-height: 22px;
     margin-bottom: 20px;
     /* position :absolute; */
-    color: peachpuff;
+    color: gray;;
     /* left: 5px; */
 }
 
 .card-details button {
-   background-color:peachpuff;
+   background-color:grey;
    border: 1px solid white;
-   padding : 5px;
+   padding : 10px;
    border-radius : 5px;
+   color: white;
 }

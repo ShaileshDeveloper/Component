@@ -15,7 +15,7 @@ body {
   margin: 0;
   position: relative;
   background-color: #f3f4f6;
-
+ color: grey;
   /* background: #F7D9D9; */
 }
 
@@ -88,7 +88,7 @@ aside a {
 }
 
 aside a:hover {
-  color: burlywood;
+  color:#011627 ;
   background: #fff;
   
   border-top-left-radius: 5px;
@@ -241,6 +241,25 @@ aside a i {
 
 
 }
+
+
+.cards-avatar{
+  
+  box-shadow: 0 4px 8px 0  #011627; 
+  box-shadow: 0 4px 8px 0 black; 
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 3.0rem;
+  text-align: start;
+  margin-top: 2rem ;
+  background-color: #011627;
+  color: whitesmoke;
+  position :relative;
+
+
+}
 .cards-input{
   
   box-shadow: 0 4px 8px 0  #011627; 
@@ -283,7 +302,7 @@ aside a i {
   width: 80%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 4.2rem;
+  padding: 4.5rem;
   text-align: start;
   margin-top: 2rem ;
   background-color: #011627;
@@ -292,6 +311,7 @@ aside a i {
 
 
 }
+
 .cards-nav{
   
   box-shadow: 0 4px 8px 0  #011627; 
@@ -300,7 +320,26 @@ aside a i {
   width: 80%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 4.2rem;
+  padding: 4.7rem;
+  text-align: start;
+  margin-top: 2rem ;
+  background-color: #011627;
+  color: whitesmoke;
+  position :relative;
+
+
+}
+
+
+.cards-text-utility{
+  
+  box-shadow: 0 4px 8px 0  #011627; 
+  box-shadow: 0 4px 8px 0 black; 
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 4.7rem;
   text-align: start;
   margin-top: 2rem ;
   background-color: #011627;
@@ -319,9 +358,7 @@ aside a i {
   left: 180px;
   bottom: 30px;
 }
-.cards div{
-  widh
-}
+
 
 .cards img {
     width: 70%;

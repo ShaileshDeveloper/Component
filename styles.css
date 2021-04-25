@@ -96,7 +96,7 @@ nav .logo {
   outline: none;
   border: none;
   
-  background-color: #DBEAFE;
+  background-color: lightblue;
   color: black;
   margin-left: 5rem;
   margin-top: 3rem;
@@ -104,14 +104,14 @@ nav .logo {
 }
 
 .button button:hover {
-  background-color: #011627;
-  color: whitesmoke;
+  background-color: lightgrey;
+  color: black;
 }
 
 .footer{
   height:50px;
   width:100%;
-  background-color:  #a9a9a9;
+  background:darkgray;
 }
 
 .nav-footer{

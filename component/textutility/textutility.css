@@ -9,7 +9,7 @@
 .small-text 
 {
     color:black;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     display: block;
     text-align: start;
 }
@@ -18,14 +18,9 @@
 {
     font-size: 1.5rem;
     text-align: start;
-    color:gray;
+    color:darkgray;
     display: block;
 }
 
-.center-text 
-{
-    font-size: 1.5rem;
-    text-align: center;
-    color: black;
-    display: block;
-}
+
+
