@@ -22,7 +22,7 @@ nav {
   height: 100px;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color:  #011627;
   flex-wrap: wrap;
   padding: 0 10px 0 50px;
@@ -30,7 +30,6 @@ nav {
 
 nav .logo {
   color: black;
-
 }
 
 .nav-bar {
